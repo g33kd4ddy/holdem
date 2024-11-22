@@ -1,2 +1,3 @@
 # holdem
-Texas Holdem Poker Timer for tournament style play.  Visual Basic.  Runs on Windows.
+Texas Hold'em Poker Tournament Timer
+Written in Visual Basic. Runs on Windows.
