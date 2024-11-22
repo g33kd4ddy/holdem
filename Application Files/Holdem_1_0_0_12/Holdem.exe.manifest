@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.12" name="Holdem.exe" publicKeyToken="b081af1e3240e18f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Holdem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Holdem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Holdem.exe" size="105472">
+      <assemblyIdentity name="Holdem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Z+ntz+uLbiGNtC1P/IqCezIaU2M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Holdem.exe.config" size="3078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9D+UUB52uScXeJ/tAV2THW+7Ues=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Stuff\ALERTK2.WAV" size="21812">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>G1M6TQUcA/KL04NsUvZlh2kDml4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Stuff\blinds.xml" size="1865">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Hdqm047L0h7jAiVA2vlHL4Oq2n8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NA\bbuchan" issuerKeyHash="a68462837e61e5c557e8ba5f73335ccbf1b60b8c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>08WtHZl3dbkDrGsEkvXE9b/mr8w=</DigestValue></Reference></SignedInfo><SignatureValue>VmRfyL0jiPrrGF/tUAFIjzdYVrghVA06PC9MO1fWWC0R60+Zm6aZQmnThXg6RL++b2m2/dQUzrlxrEqXTD+pvrpigTZjDXmONFE7D1eN6sR6aSoqJV9mVfsQDt7OsEABcQLZ4baO5v2z181gZMwtGTb0Zuv0U81U1usSQLW3c54=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0mGT5n5VzVzyF97J+S5w3AeBt8JPWcL79TeTdhgLbqgEn84T6jqMF//SvA6x0BKsM61/YLaWMM/NSbVvTyYvX0qi/qe+Irtutq7J2c0543WH3icgsDaVWz55b0nbjc7saCurjQGsy3JynDMnHQbyfSnJfdPEiAIwqHi6XAEFy+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ccafe6bff5c4f592046bac03b97577991dadc5d3" Description="" Url=""><as:assemblyIdentity version="1.0.0.12" name="Holdem.exe" publicKeyToken="b081af1e3240e18f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NA\bbuchan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KDkc1yyJ8Z/Ckmp/xQ7LCPGCmc0=</DigestValue></Reference></SignedInfo><SignatureValue>0Dqsv+7vQgJ0t7Le0xkUA8J1+rciBJoZ8f0fNXwg/WV2W2JWet+iYuxhHLi0smrBhxv6s5jE7C+lgUYORhbXRDXgXp0noYOpHeoFbMW/3BsuPRbwz6IR/YtSmpjHFltwXGLkJwkhDIx/QnXwjSmLbYIsDRiNfQfB2FcKeYhj+lc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0mGT5n5VzVzyF97J+S5w3AeBt8JPWcL79TeTdhgLbqgEn84T6jqMF//SvA6x0BKsM61/YLaWMM/NSbVvTyYvX0qi/qe+Irtutq7J2c0543WH3icgsDaVWz55b0nbjc7saCurjQGsy3JynDMnHQbyfSnJfdPEiAIwqHi6XAEFy+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASagAwIBAgIQFsiyw3ydvJxP3j8tXRsqZzAJBgUrDgMCHQUAMB8xHTAbBgNVBAMeFABOAEEAXABiAGIAdQBjAGgAYQBuMB4XDTA4MDgwNDIzMDEwNloXDTA5MDgwNTA1MDEwNlowHzEdMBsGA1UEAx4UAE4AQQBcAGIAYgB1AGMAaABhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANJhk+Z+Vc1c8hfeyfkucNwHgbfCT1nC+/U3k3YYC26oBJ/OE+o6jBf/0rwOsdASrDOtf2C2ljDPzUm1b08mL19Kov6nviK7brauydnNOeN1h94nILA2lVs+eW9J243O7Ggrq40BrMtycpwzJx0G8n0pyX3TxIgCMKh4ulwBBcvlAgMBAAEwCQYFKw4DAh0FAAOBgQB1UORgOOnb/60RL2EUAUNXmqC9SuOnPC1LtiyMc+KLlwZ3ufBACpABdl4Vo1v9TOJoayPMgm+sj2EINJMDDDjtDBleKlnfZI0qS94vUF+eGgKV86Wycz1u+brn1gwqrsuM6CatU2pmth9A9jaYdD/90pAxyjY6FmULS9tVrIlJXg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

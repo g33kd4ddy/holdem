@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+<xsd:schema>
+<xsd:element name="dataroot">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="Blind" minOccurs="0" maxOccurs="unbounded"/>
+</xsd:sequence>
+<xsd:attribute name="generated" type="xsd:dateTime"/>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="Blind">
+<xsd:annotation>
+<xsd:appinfo/>
+</xsd:annotation>
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="Level" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"/>
+<xsd:element name="Small" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"/>
+<xsd:element name="Big" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="2008-08-10T18:34:42">
+<Blind>
+<Level>1</Level>
+<Small>10</Small>
+<Big>20</Big>
+</Blind>
+<Blind>
+<Level>2</Level>
+<Small>15</Small>
+<Big>30</Big>
+</Blind>
+<Blind>
+<Level>3</Level>
+<Small>20</Small>
+<Big>40</Big>
+</Blind>
+<Blind>
+<Level>4</Level>
+<Small>30</Small>
+<Big>60</Big>
+</Blind>
+<Blind>
+<Level>5</Level>
+<Small>40</Small>
+<Big>80</Big>
+</Blind>
+<Blind>
+<Level>6</Level>
+<Small>60</Small>
+<Big>120</Big>
+</Blind>
+<Blind>
+<Level>7</Level>
+<Small>80</Small>
+<Big>160</Big>
+</Blind>
+<Blind>
+<Level>8</Level>
+<Small>100</Small>
+<Big>200</Big>
+</Blind>
+<Blind>
+<Level>9</Level>
+<Small>150</Small>
+<Big>300</Big>
+</Blind>
+<Blind>
+<Level>10</Level>
+<Small>200</Small>
+<Big>400</Big>
+</Blind>
+<Blind>
+<Level>11</Level>
+<Small>300</Small>
+<Big>600</Big>
+</Blind>
+<Blind>
+<Level>12</Level>
+<Small>400</Small>
+<Big>800</Big>
+</Blind>
+</dataroot>
+</root>
